@@ -1,4 +1,5 @@
 import ProductCard from "../components/productCard";
+import Slider from "../components/slider";
 
 function Home(){
     const products =  [
@@ -96,7 +97,7 @@ function Home(){
       
       
     return (<>
-    
+    <Slider/>
     <section className="bg-white pb-10 pt-20 lg:pb-20 lg:pt-[120px] dark:bg-dark">
       <div className="container mx-auto">
         <div className="-mx-4 flex flex-wrap justify-center">
